@@ -1,17 +1,23 @@
 # Bank Churner Prediction : Project Overview
+
 * For this analytics, I will look into a bank customer data to predict whether the customer will leave the credit card services of the bank. By predicting which customer is a high risk of churning (leave) is valuable for the bank with returning customers.
 * Data was prepared by using **Python** and apply modelling by **R** (R is one of the predominant languages in data science ecosystem and makes it simple to efficiently implement statistical techniques and thus it is excellent choice for machine learning tasks)
 
 # Code and Resources used
+
 **Python** Jupyter notebook ver 3.10
+
 **R Studio** RMarkdown
+
 **EDA article** : https://towardsdatascience.com/practical-data-analysis-with-pandas-and-seaborn-8fec3cb9cd16
 
 # Data Description
 
 The data set contains information about the customers of a bank. 
 * Attrition Flag : Existing Customer (0) and Attrited Customer (1)
+
 * Demographic Variables : Customer Age, Gender, Marital Status, number of dependents, Education level, Income
+
 * Behavior Variables : Type of Cards, Months on book, The amount transaction, etc
 
 # EDA 
@@ -26,5 +32,6 @@ First I transformed some categorical variable into numeric ( i.e income) and rea
 I tried two different models and evaluated the accuracy based on the test error rate
 
 * **Logistic Regression** the small p-values associated with almost all of the predictors 
+
 * However **RandomForest** with the lower test error rate 
 
